@@ -1,0 +1,80 @@
+const animations = [
+    {
+        id: "fade",
+        bn: "ফেইড",
+        en: "Fade"
+    },
+    {
+        id: "lift",
+        bn: "লিফ্ট",
+        en: "Lift"
+    },
+    {
+        id: "slide",
+        bn: "স্লাইড",
+        en: "Slide"
+    },
+]
+
+const fontsBn = [
+    {
+        id: "default",
+        bn: "ডিফল্ট",
+    },
+    {
+        id: "fontBn-2",
+        bn: "সোলাইমান লিপি",
+    },
+    {
+        id: "fontBn-3",
+        bn: "কালপুরুষ",
+    },
+]
+
+const fontsEn = [
+    {
+        id: "default",
+        en: "Default"
+    },
+    {
+        id: "times",
+        en: "Times"
+    },
+    {
+        id: "theano_didot",
+        en: "Theano Didot"
+    },
+]
+
+const fontsAr = [
+    {
+        id: "default",
+        bn: "ডিফল্ট",
+        en: "Default"
+    },
+    {
+        id: "al_qalam",
+        bn: "আল কালাম",
+        en: "Al Qalam"
+    },
+    {
+        id: "msuighur",
+        bn: "মসিওগার",
+        en: "Msuighur"
+    },
+]
+
+const langs = [
+    {
+        id: "bn",
+        bn: "বাংলা",
+        en: "Bangla"
+    },
+    {
+        id: "en",
+        bn: "ইংরেজি",
+        en: "English"
+    },
+]
+
+export { animations, fontsBn, fontsEn, fontsAr, langs }
